@@ -1,0 +1,5 @@
+*
+!.gitignore
+!/**/Part1/main.swift
+!/**/Part2/main.swift
+
