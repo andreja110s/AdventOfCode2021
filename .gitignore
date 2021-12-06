@@ -1,5 +1,4 @@
-*
-!.gitignore
-!/**/Part1/main.swift
-!/**/Part2/main.swift
-
+/*/*/*/main.swift
+*.xcodeproj
+.DS_Store
+*.txt
