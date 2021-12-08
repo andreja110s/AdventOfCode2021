@@ -9,10 +9,11 @@ var solution = 0
 
 for crabLocation in crabLocations {
      
-    for lengthTo in 0...abs(0 - crabLocation) {
-        
-        solution += lengthTo
-    }
+    let n = abs(0 - crabLocation)
+    
+    let totalSum = n * (n + 1 ) / 2
+    
+    solution += totalSum
 }
 
 for index in 1...crabLocations.max()! {
